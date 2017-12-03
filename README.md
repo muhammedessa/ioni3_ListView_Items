@@ -19,3 +19,7 @@ thanks for Mayada Naji from Code for Diyala that asked for this example
 
  
 
+
+![Screenshot](https://github.com/muhammedessa/ioni3_ListView_Items/blob/master/4.png)
+
+ 
