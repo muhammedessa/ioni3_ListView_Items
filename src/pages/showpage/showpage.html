@@ -1,0 +1,65 @@
+<!--
+  Generated template for the ShowpagePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Details</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+
+
+    <ion-card>
+        
+          <ion-item>
+            <ion-avatar item-start>
+              <img src="assets/img/info.png">
+            </ion-avatar>
+            <h2>{{myInfo.firstName}}</h2>
+            <p>{{myInfo.lastName}}</p>
+          </ion-item>
+        
+          <img src="assets/img/wallpaper.jpg">
+        
+          <ion-card-content>
+  <p>    {{myInfo.country}} ,  {{myInfo.city}}  ,  {{myInfo.phone}}   ,   {{myInfo.salary}}   ,   {{myInfo.email}}   </p>
+          </ion-card-content>
+        
+          <ion-row>
+            <ion-col>
+              <button ion-button icon-left clear small>
+                <ion-icon name="thumbs-up"></ion-icon>
+                <div>Like</div>
+              </button>
+            </ion-col>
+            <ion-col>
+              <button ion-button icon-left clear small>
+                <ion-icon name="md-heart"></ion-icon>
+                <div>Donate</div>
+              </button>
+            </ion-col>
+            <ion-col center text-center>
+              <ion-note>
+                11h ago
+              </ion-note>
+            </ion-col>
+          </ion-row>
+        
+        </ion-card>
+
+
+
+
+
+ 
+
+
+</ion-content>

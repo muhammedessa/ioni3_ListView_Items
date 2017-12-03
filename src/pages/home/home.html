@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Persons Database</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  
+
+  <ion-list>
+      <button ion-item *ngFor="let item of items$   | async json" (click)="itemSelected(item.payload.key,item.payload.val().firstName,item.payload.val().lastName,item.payload.val().country,item.payload.val().city,item.payload.val().phone,item.payload.val().salary,item.payload.val().email)"> 
+   
+      
+        <ion-avatar item-start>
+          <img src="assets/img/lm.png">
+        </ion-avatar>
+     
+        <h2>{{item.payload.val().firstName}}</h2>
+        <h3>{{item.payload.val().lastName}}</h3>
+        <p>{{item.payload.val().country}}  -  {{item.payload.val().city}}</p>
+        <ion-note>{{item.payload.val().employeeId}}</ion-note>
+      
+ 
+    </button>  
+  </ion-list>
+
+
+ 
+
+
+</ion-content>
